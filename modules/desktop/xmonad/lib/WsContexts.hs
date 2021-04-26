@@ -1,3 +1,5 @@
+{-# LANGUAGE NamedFieldPuns #-}
+
 -----------------------------------------------------------------------------
 -- |
 -- Module      :  WsContexts
@@ -15,9 +17,11 @@
 module WsContexts ( addContext
                   , deleteContext
                   , selectContext
+                  , prependWorkspace
                   ) where
 
 import XMonad
+import qualified XMonad.StackSet             as W
 
 -- $usage
 -- You can use this module by importing it into your @~\/.xmonad\/xmonad.hs@:
@@ -28,6 +32,20 @@ import XMonad
 --
 -- > contextTemplate = map (WsNormal . show) [1..8] ++ [(WsSticky "9")]
 --
+
+newWorkspace name layout = W.Workspace
+  { W.tag = name
+  , W.layout = layout
+  , W.stack = Nothing
+  }
+prependWorkspace :: X ()
+prependWorkspace = do
+  layout <- asks (layoutHook . config)
+  windows $ \ws@W.StackSet{W.current, W.hidden, W.visible} ->
+    let new = newWorkspace "23" layout
+    in ws
+      { W.current = (W.current ws) { W.workspace = new }
+      }
 
 data WsContextStack = WsContextStack
     { contexts :: [WsContext]

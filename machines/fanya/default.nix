@@ -112,7 +112,7 @@
     desktop = {
       enable = true;
       colors = import ../../modules/desktop/colors/solarized-light.nix;
-      session = "awesome";
+      session = "xmonad";
     };
 
     programs = {
@@ -122,6 +122,7 @@
       vim.enable = true;
 
       extraPackages = with pkgs; [
+        acpi
         barrier
         cloc
         gdb
@@ -136,5 +137,7 @@
         wget
       ];
     };
+
+    services.foundry-vtt.enable = true;
   };
 }

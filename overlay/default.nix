@@ -6,6 +6,7 @@ in
 (
   self: super:
     rec {
+      foundry-vtt-headless = super.callPackage ./foundry-vtt-headless.nix {};
       fzf = nixpkgs-unstable.fzf;
 
       github-cli = super.callPackage ./github-cli {

@@ -70,21 +70,21 @@ nnoremap <silent> <leader> :<C-u>WhichKey '<Space>'<Cr>
 vnoremap <silent> <leader> :<C-u>WhichKeyVisual '<Space>'<Cr>
 
 let g:which_key_map = {
-    \ "\<Space>" : [':Files',                                'find-file'],
-    \ "r"        : [':Rg',                                   'ripgrep'],
-    \ 'b'        : [':Buffers',                              'select-buffer'],
-    \ 'w'        : [':w',                                    'save-file'],
-    \ '['        : ['<plug>(YoinkPostPasteSwapBack)',        'yoink-back'],
-    \ ']'        : ['<plug>(YoinkPostPasteSwapForward)',     'yoink-fwd'],
+    \ "\<Space>" : [':Files',                                  'find-file'],
+    \ "r"        : [':Rg',                                     'ripgrep'],
+    \ 'b'        : [':Buffers',                                'select-buffer'],
+    \ 'w'        : [':w',                                      'save-file'],
+    \ '['        : ['<plug>(YoinkPostPasteSwapBack)',          'yoink-back'],
+    \ ']'        : ['<plug>(YoinkPostPasteSwapForward)',       'yoink-fwd'],
     \ 't'        : { 'name': '+toggle',
-                   \ 'i'   : [':IndentGuidesToggle',         'indent-guides'],
+                   \ 'i'   : [':IndentGuidesToggle',           'indent-guides'],
                    \ },
     \ 'l'        : { 'name': '+lsp',
-                   \ 'r'   : ['<plug>(coc-rename)',          'rename'],
-                   \ 'f'   : ['<plug>(coc-format-selected)', 'format'],
-                   \ 'a'   : ['<plug>(coc-codeaction-selected)', 'action'],
-                   \ 'A'   : ['<plug>(coc-codeaction)',      'action (buffer)'],
-                   \ 'q'   : ['<plug>(coc-fix-current)',     'fix'],
+                   \ 'r'   : ['<plug>(coc-rename)',            'rename'],
+                   \ 'f'   : ['<plug>(coc-format-selected)',   'format'],
+                   \ 'a'   : ['<plug>(coc-codeaction-cursor)', 'action'],
+                   \ 'A'   : ['<plug>(coc-codeaction)',        'action (buffer)'],
+                   \ 'q'   : ['<plug>(coc-fix-current)',       'fix'],
                    \ }
     \ }
 

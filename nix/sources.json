@@ -41,10 +41,10 @@
         "homepage": "",
         "owner": "fannheyward",
         "repo": "coc-rust-analyzer",
-        "rev": "d7ee61f49c62a88e52b617b0dd054ba8815f5ad5",
-        "sha256": "13x1p018w5k4ck87jfdjw67q7mimnx29is1mfpqkc3fdp7ia33l6",
+        "rev": "16a5e0cab541aed9595e145c4f432cce6df848c0",
+        "sha256": "1w4hx3392c14r9rgfp8fzyhwfkaia05hzh7zdylg2zzzyhidcx7a",
         "type": "tarball",
-        "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/d7ee61f49c62a88e52b617b0dd054ba8815f5ad5.tar.gz",
+        "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/16a5e0cab541aed9595e145c4f432cce6df848c0.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "detectindent": {
