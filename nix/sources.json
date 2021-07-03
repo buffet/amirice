@@ -17,10 +17,10 @@
         "homepage": "https://blog.buffet.sh/",
         "owner": "buffet",
         "repo": "blog",
-        "rev": "666a3f41e61c8795d1d244289b4e33c83c45acda",
-        "sha256": "1cdpc6qshddggrxx8bh1b38ly1vni8qnm2wvjbgqv3h1gkl5g96w",
+        "rev": "6003649c7286b439c73cbaa4f7436a2fa9966b3d",
+        "sha256": "1gy14aw82kq66c4lz79phvv4wn6alys1p3nvcgz8svp0wbm5qg9z",
         "type": "tarball",
-        "url": "https://github.com/buffet/blog/archive/666a3f41e61c8795d1d244289b4e33c83c45acda.tar.gz",
+        "url": "https://github.com/buffet/blog/archive/6003649c7286b439c73cbaa4f7436a2fa9966b3d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "coc-fzf": {
