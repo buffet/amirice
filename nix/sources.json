@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "pechorin",
         "repo": "any-jump.vim",
-        "rev": "c5c319fdf588c9ed53e6a32eb2608bd1eb2f9c92",
-        "sha256": "1lzpr5x7zvpc252j6ipp2rfjfd25a0mrkikq8vdsbxbamp8cyqpb",
+        "rev": "d58aac1fba124fe2322758366af3a62cec03d629",
+        "sha256": "151gvvamb43r4i2q6snmgwc5qddz7zjwyj7ch6lcsdn731gkhnmz",
         "type": "tarball",
-        "url": "https://github.com/pechorin/any-jump.vim/archive/c5c319fdf588c9ed53e6a32eb2608bd1eb2f9c92.tar.gz",
+        "url": "https://github.com/pechorin/any-jump.vim/archive/d58aac1fba124fe2322758366af3a62cec03d629.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "blog": {
@@ -29,10 +29,10 @@
         "homepage": "",
         "owner": "antoinemadec",
         "repo": "coc-fzf",
-        "rev": "a8b32b8b8a37d7fb87687c0187b7ad36987e2122",
-        "sha256": "1x6xfizcix1hlcl2dhxbaxxl2q7lpgnfyvdg81c88rcn68qykfn0",
+        "rev": "2d9deb2a3b05a0c09f01edda0a4abd542cb3eebd",
+        "sha256": "0y1yh5sf0irk9rr0d5vzvf58y5q5i50b9wdpbjy1b4dfvnax00gn",
         "type": "tarball",
-        "url": "https://github.com/antoinemadec/coc-fzf/archive/a8b32b8b8a37d7fb87687c0187b7ad36987e2122.tar.gz",
+        "url": "https://github.com/antoinemadec/coc-fzf/archive/2d9deb2a3b05a0c09f01edda0a4abd542cb3eebd.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "coc-rust-analyzer": {
@@ -41,10 +41,10 @@
         "homepage": "",
         "owner": "fannheyward",
         "repo": "coc-rust-analyzer",
-        "rev": "16a5e0cab541aed9595e145c4f432cce6df848c0",
-        "sha256": "1w4hx3392c14r9rgfp8fzyhwfkaia05hzh7zdylg2zzzyhidcx7a",
+        "rev": "3a6cfc919f31f9e20c4052869f8f9dbf53c85900",
+        "sha256": "099ggxy6mh497a5qfs0jhbg479cfd23a1sd21pkwxxjqw3iy70f3",
         "type": "tarball",
-        "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/16a5e0cab541aed9595e145c4f432cce6df848c0.tar.gz",
+        "url": "https://github.com/fannheyward/coc-rust-analyzer/archive/3a6cfc919f31f9e20c4052869f8f9dbf53c85900.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "detectindent": {
@@ -101,13 +101,14 @@
         "homepage": "",
         "owner": "vlaci",
         "repo": "nix-doom-emacs",
-        "rev": "b182af7d10aa8394f12ecc2c53fd942fa30de060",
-        "sha256": "1mn01cvax8dmgxv68f9hv4l5i1p2xms0dlzmp30jmf7g31jfbrdy",
+        "rev": "fee14d217b7a911aad507679dafbeaa8c1ebf5ff",
+        "sha256": "1g0izscjh5nv4n0n1m58jc6z27i9pkbxs17mnb05a83ffdbmmva6",
         "type": "tarball",
-        "url": "https://github.com/vlaci/nix-doom-emacs/archive/b182af7d10aa8394f12ecc2c53fd942fa30de060.tar.gz",
+        "url": "https://github.com/vlaci/nix-doom-emacs/archive/fee14d217b7a911aad507679dafbeaa8c1ebf5ff.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixos-mailserver": {
+        "branch": "master",
         "ref": "nixos-20.03",
         "repo": "https://gitlab.com/simple-nixos-mailserver/nixos-mailserver.git",
         "rev": "c415bbb58422c967cf979780a962e4048da018b0",
@@ -119,10 +120,10 @@
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "929768261a3ede470eafb58d5b819e1a848aa8bf",
-        "sha256": "0zi54vbfi6i6i5hdd4v0l144y1c8rg6hq6818jjbbcnm182ygyfa",
+        "rev": "1db42b7fe3878f3f5f7a4f2dc210772fd080e205",
+        "sha256": "05k9y9ki6jhaqdhycnidnk5zrdzsdammbk5lsmsbz249hjhhgcgh",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/929768261a3ede470eafb58d5b819e1a848aa8bf.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/1db42b7fe3878f3f5f7a4f2dc210772fd080e205.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs-unstable": {
@@ -131,10 +132,10 @@
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "7cbec40a09533dd9c525d6ab94dddfe77768101a",
-        "sha256": "006fns0kxs9n32cg6f4p0zyaxxsyidwsa152flpsbaky1c6drn96",
+        "rev": "70088dc29994c32f8520150e34c6e57e8453f895",
+        "sha256": "08ldqfh2cmbvf930yq9pv220sv83k9shq183935l5d8p61fxh5zr",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/7cbec40a09533dd9c525d6ab94dddfe77768101a.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/70088dc29994c32f8520150e34c6e57e8453f895.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nur": {
@@ -143,10 +144,10 @@
         "homepage": "",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "366a270b4b386b482db463530da8f8b132abacf3",
-        "sha256": "0n8q3s9slddhi76idmwxcmwfy566n4qm1ral1mvc7d44hfg73hxd",
+        "rev": "19274c4c053c02b0f0b648c7b87417f089408615",
+        "sha256": "09nbb2bckh87jz04xazznwnxpxs64vqm5j1cim6p69lacfg2b2ma",
         "type": "tarball",
-        "url": "https://github.com/nix-community/NUR/archive/366a270b4b386b482db463530da8f8b132abacf3.tar.gz",
+        "url": "https://github.com/nix-community/NUR/archive/19274c4c053c02b0f0b648c7b87417f089408615.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "prolog-vim": {
@@ -167,10 +168,10 @@
         "homepage": "https://swaywm.org/",
         "owner": "swaywm",
         "repo": "sway",
-        "rev": "eca57594a04ed5e6f2294bb51ce29445849cc48b",
-        "sha256": "1xsa3h8zhf29p0mi90baxpr76jkd9pd1gr97ky8cnjbcs4isj9j0",
+        "rev": "075845ceb2a6bd23c1cac667c6d768297da6a3fe",
+        "sha256": "1vif4zd8s8dqrqqfcdpf258wpi674scmwilm6bayf59sa4whv7fz",
         "type": "tarball",
-        "url": "https://github.com/swaywm/sway/archive/eca57594a04ed5e6f2294bb51ce29445849cc48b.tar.gz",
+        "url": "https://github.com/swaywm/sway/archive/075845ceb2a6bd23c1cac667c6d768297da6a3fe.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "trup": {
@@ -179,10 +180,10 @@
         "homepage": "",
         "owner": "unixporn",
         "repo": "trup",
-        "rev": "6f80b5b4aec6f360f5c000c1d766aab49f854d8e",
-        "sha256": "1biy64aknn8dlivla7k5snv2gvsv7vrmsbnnch0gv6a49k9ldxmz",
+        "rev": "2f2b21f3003ec7ae57da3751133433bba06eed49",
+        "sha256": "0x7yvvnc1gvqca796pvvvz0qmm1akrzhizax21mj1j1llv4rw25z",
         "type": "tarball",
-        "url": "https://github.com/unixporn/trup/archive/6f80b5b4aec6f360f5c000c1d766aab49f854d8e.tar.gz",
+        "url": "https://github.com/unixporn/trup/archive/2f2b21f3003ec7ae57da3751133433bba06eed49.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-openscad": {
@@ -203,10 +204,10 @@
         "homepage": "",
         "owner": "psliwka",
         "repo": "vim-smoothie",
-        "rev": "f83a157552a3bf393a7c034df1d21e3555123a4c",
-        "sha256": "090rl4mfww5rmv04v25f58jfv3yx23bwi0pijkwxr442yhbg3rg2",
+        "rev": "10fd0aa57d176718bc2c570f121ab523c4429a25",
+        "sha256": "18zn29mkgdiddn3il393xzg7hpa0x25yvais1l29jq2711sg4rdc",
         "type": "tarball",
-        "url": "https://github.com/psliwka/vim-smoothie/archive/f83a157552a3bf393a7c034df1d21e3555123a4c.tar.gz",
+        "url": "https://github.com/psliwka/vim-smoothie/archive/10fd0aa57d176718bc2c570f121ab523c4429a25.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-which-key": {
@@ -215,10 +216,10 @@
         "homepage": "http://liuchengxu.org/vim-which-key",
         "owner": "liuchengxu",
         "repo": "vim-which-key",
-        "rev": "c5322b2f67bc627d467e527a530ff6695ccd3dbd",
-        "sha256": "0j3pnbg0a2rcjfp691v7wzcp9bqan24qvdl4fxzljipl2lyim0qb",
+        "rev": "2c915b6de918c073fbd83809e51343651f00f9a8",
+        "sha256": "05jdjmpyczcgqsm5mznyb79bq10ianv7v3rhxy9wrklkama3jrgs",
         "type": "tarball",
-        "url": "https://github.com/liuchengxu/vim-which-key/archive/c5322b2f67bc627d467e527a530ff6695ccd3dbd.tar.gz",
+        "url": "https://github.com/liuchengxu/vim-which-key/archive/2c915b6de918c073fbd83809e51343651f00f9a8.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-yoink": {
@@ -227,10 +228,10 @@
         "homepage": "",
         "owner": "svermeulen",
         "repo": "vim-yoink",
-        "rev": "b973fce71d45fe7c290119448651da7a1b9943a1",
-        "sha256": "1cjrv55x340i5c87pd8z3l27f2jl98p0v20hr77is8f9fi3ja40d",
+        "rev": "89ed6934679fdbc3c20f552b50b1f869f624cd22",
+        "sha256": "0r8m43lkc1a7n0bkp1xfn9n3n44n8vsdvzz908ma6xg6ihwqlhbs",
         "type": "tarball",
-        "url": "https://github.com/svermeulen/vim-yoink/archive/b973fce71d45fe7c290119448651da7a1b9943a1.tar.gz",
+        "url": "https://github.com/svermeulen/vim-yoink/archive/89ed6934679fdbc3c20f552b50b1f869f624cd22.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "website": {
