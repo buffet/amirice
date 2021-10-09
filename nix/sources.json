@@ -239,10 +239,10 @@
         "homepage": "https://buffet.sh",
         "owner": "buffet",
         "repo": "website",
-        "rev": "6572e8383d2f5916b472b2687b3d167eb82a00db",
-        "sha256": "16nmy43c2ignknmmpamiz9w4l03g10m4213sxafxxk78wfi606aw",
+        "rev": "1b5d92fe376e5d705bd8818235756b6bbb5188e3",
+        "sha256": "08555hgv07dc5nyg3r8phg4glqp52k9p79469qbqa6wis9g0gjwa",
         "type": "tarball",
-        "url": "https://github.com/buffet/website/archive/6572e8383d2f5916b472b2687b3d167eb82a00db.tar.gz",
+        "url": "https://github.com/buffet/website/archive/1b5d92fe376e5d705bd8818235756b6bbb5188e3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
