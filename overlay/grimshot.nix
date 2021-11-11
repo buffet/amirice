@@ -1,5 +1,6 @@
 { sources ? import ../nix/sources.nix
 , stdenv
+, lib
 , makeWrapper
 , grim
 , jq
@@ -36,7 +37,7 @@ stdenv.mkDerivation rec {
         --prefix PATH : ${stdenv.lib.makeBinPath [ grim jq libnotify slurp wl-clipboard ]}
   '';
 
-  meta = with stdenv.lib; {
+  meta = with lib; {
     description = "A helper for screenshots within sway";
     homepage = "https://gitlab.com/swaywm/sway";
     license = licenses.mit;

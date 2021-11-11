@@ -1,4 +1,4 @@
-{ stdenv, buildGoPackage, fetchFromGitHub }:
+{ stdenv, lib, buildGoPackage, fetchFromGitHub }:
 
 buildGoPackage rec {
   pname = "ultralist";
@@ -13,7 +13,7 @@ buildGoPackage rec {
     sha256 = "0rjaaci9iwmhpcncsbmvznmmnczj2kvzzhxldkamdgvhpbm5cq0q";
   };
 
-  meta = with stdenv.lib; {
+  meta = with lib; {
     description = "Simple task management for tech folks";
     homepage = https://github.com/cjbassi/gotop;
     license = licenses.mit;

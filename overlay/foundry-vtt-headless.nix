@@ -1,4 +1,4 @@
-{ stdenv, autoPatchelfHook, unzip, libX11, libXcomposite, glib
+{ stdenv, lib, autoPatchelfHook, unzip, libX11, libXcomposite, glib
 , libXcursor, libXdamage, libXext, libXi, libXrender, libXtst, libxcb, nspr
 , dbus, gdk-pixbuf, gtk3, pango, atk, cairo, expat, libXrandr, libXScrnSaver
 , alsaLib, at-spi2-core, cups, nss }:
@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   src = builtins.fetchTarball {
     name = "foundry-vtt-${version}";
     url = "https://foundryvtt.com/releases/download?version=${version}&platform=linux";
-    sha256 = stdenv.lib.fakeSha256;
+    sha256 = lib.fakeSha256;
   };
 
   buildInputs = [

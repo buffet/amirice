@@ -1,4 +1,4 @@
-{ stdenv, fetchFromGitHub }:
+{ stdenv, lib, fetchFromGitHub }:
 stdenv.mkDerivation rec {
   name = "kakoune-gdb";
   version = "2019-11-24";
@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     cp gdb-output-handler.perl $out/share/kak/autoload/plugins
   '';
 
-  meta = with stdenv.lib; {
+  meta = with lib; {
     description = "A gdb integration plugin";
     homepage = "https://nixos.org/manual/nixpkgs/stable/";
     license = licenses.unlicense;
