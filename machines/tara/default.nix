@@ -29,6 +29,7 @@
       bitwarden.enable = true;
       blog.enable = true;
       mailserver.enable = true;
+      minecraft-server.enable = true;
       thelounge.enable = true;
       website.enable = true;
     };
