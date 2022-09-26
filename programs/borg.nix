@@ -1,4 +1,8 @@
-{pkgs, config, ...}: let
+{
+  pkgs,
+  config,
+  ...
+}: let
   host = "11967@prio.ch-s011.rsync.net";
 in {
   age.secrets.borgpassword.file = ../secrets/borgpassword.age;
