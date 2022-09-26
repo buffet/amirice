@@ -29,5 +29,9 @@ _: {
       dates = "weekly";
       options = "--delete-older-than 14d";
     };
+
+    extraOptions = ''
+      experimental-features = nix-command flakes
+    '';
   };
 }
