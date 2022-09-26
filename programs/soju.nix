@@ -4,6 +4,11 @@ _: let
 in {
   networking.firewall.allowedTCPPorts = [port];
 
+  security.acme = {
+    acceptTerms = true;
+    certs."irc.buffet.sh".email = "niclas@countingsort.com";
+  };
+
   services = {
     soju = {
       enable = true;
@@ -23,7 +28,10 @@ in {
         enableACME = true;
         forceSSL = true;
         listen = [
-          {inherit port;}
+          {
+            addr = "irc.buffet.sh";
+            inherit port;
+          }
         ];
 
         locations."/" = {
