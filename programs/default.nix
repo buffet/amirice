@@ -4,6 +4,5 @@ _: {
     ./bitwarden.nix
     ./borg.nix
     ./soju.nix
-    ./thelounge.nix
   ];
 }
