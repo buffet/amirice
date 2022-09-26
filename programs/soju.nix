@@ -13,7 +13,7 @@ in {
     soju = {
       enable = true;
       hostName = "irc.buffet.sh";
-      listen = [":${toString internal_port}"];
+      listen = ["irc+insecure://:${toString internal_port}"];
     };
 
     nginx = {
