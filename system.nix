@@ -19,6 +19,7 @@ _: {
 
   security.sudo.wheelNeedsPassword = false;
   services.openssh.enable = true;
+  services.postgresql.enable = true;
 
   networking = {
     hostName = "tara";
