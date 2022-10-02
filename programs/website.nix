@@ -13,7 +13,7 @@ _: {
       enableACME = true;
       forceSSL = true;
       # TODO: website source
-      root = sources.website;
+      root = "/var/empty";
     };
   };
 }
