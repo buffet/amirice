@@ -2,7 +2,7 @@ _: {
   imports = [
     # TODO: ./blog.nix ./mailserver.nix
     ./acme.nix
-    #./bitwarden.nix
+    ./bitwarden.nix
     #./borg.nix
     ./website.nix
     ./znc.nix
