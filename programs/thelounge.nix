@@ -1,9 +1,6 @@
 _: let
   port = 9000;
 in {
-  security.acme.acceptTerms = true;
-  security.acme.certs."irc.buffet.sh".email = "niclas@countingsort.com";
-
   services = {
     thelounge = {
       enable = true;

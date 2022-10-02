@@ -1,23 +1,29 @@
 _: {
   imports = [
     ./hardware-configuration.nix
-    ./networking.nix
+    ./linode.nix
   ];
 
   # Don't change!
-  system.stateVersion = "20.03";
+  system.stateVersion = "22.05";
 
   time.timeZone = "UTC";
   i18n.defaultLocale = "en_US.UTF-8";
 
-  boot.cleanTmpDir = true;
+  boot = {
+    loader.grub.forceInstall = true;
+    loader.grub.device = "nodev";
+    loader.grub.timeout = 10;
+    cleanTmpDir = true;
+  };
+
   security.sudo.wheelNeedsPassword = false;
   services.openssh.enable = true;
-  services.postgresql.enable = true;
 
   networking = {
     hostName = "tara";
     firewall.allowPing = true;
+    usePredictableInterfaceNames = false;
   };
 
   nix = {

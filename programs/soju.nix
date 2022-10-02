@@ -3,11 +3,6 @@
 in {
   networking.firewall.allowedTCPPorts = [port];
 
-  security.acme = {
-    acceptTerms = true;
-    certs."irc.buffet.sh".email = "niclas@countingsort.com";
-  };
-
   services.soju = let
     certdir = config.security.acme.certs."irc.buffet.sh".directory;
   in {

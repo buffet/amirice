@@ -5,9 +5,6 @@ in {
     (import nixos-mailserver)
   ];
 
-  security.acme.acceptTerms = true;
-  security.acme.certs."mx.buffet.sh".email = "niclas@countingsort.com";
-
   mailserver = {
     enable = true;
     fqdn = "mx.buffet.sh";

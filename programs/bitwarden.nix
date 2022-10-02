@@ -3,11 +3,6 @@
 in {
   age.secrets.bitwarden.file = ../secrets/bitwarden.age;
 
-  security.acme = {
-    acceptTerms = true;
-    certs."bitwarden.buffet.sh".email = "niclas@countingsort.com";
-  };
-
   services = {
     vaultwarden = {
       enable = true;

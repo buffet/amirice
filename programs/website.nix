@@ -1,11 +1,6 @@
 _: {
   networking.firewall.allowedTCPPorts = [80 443];
 
-  security.acme = {
-    acceptTerms = true;
-    certs."buffet.sh".email = "niclas@countingsort.com";
-  };
-
   services.nginx = {
     enable = true;
 
