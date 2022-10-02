@@ -3,7 +3,7 @@ _: {
     # TODO: ./blog.nix ./mailserver.nix
     ./acme.nix
     ./bitwarden.nix
-    #./borg.nix
+    ./borg.nix
     ./website.nix
     ./znc.nix
   ];
