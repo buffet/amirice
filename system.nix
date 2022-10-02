@@ -13,7 +13,7 @@ _: {
   boot = {
     loader.grub.forceInstall = true;
     loader.grub.device = "nodev";
-    loader.grub.timeout = 10;
+    loader.timeout = 10;
     cleanTmpDir = true;
   };
 
