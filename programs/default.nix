@@ -5,5 +5,6 @@ _: {
     #./bitwarden.nix
     #./borg.nix
     ./website.nix
+    ./znc.nix
   ];
 }
