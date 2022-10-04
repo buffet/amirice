@@ -1,5 +1,5 @@
 {pkgs, ...}: let
-  port = 4123;
+  port = 4124;
 in {
   networking.firewall.allowedTCPPorts = [port];
 
