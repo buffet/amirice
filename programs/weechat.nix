@@ -3,6 +3,10 @@
 in {
   networking.firewall.allowedTCPPorts = [port];
 
+  environment.systemPackages = with pkgs; [
+    screen
+  ];
+
   systemd.services.weechat = {
     after = ["network-online.target"];
     wantedBy = ["multi-user.target"];
