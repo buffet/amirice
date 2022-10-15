@@ -1,4 +1,10 @@
-{pkgs, ...}: let certdir = "/var/lib/acme/ejabberd"; in {
+{
+  config,
+  pkgs,
+  ...
+}: let
+  certdir = "/var/lib/acme/ejabberd";
+in {
   services.ejabberd = {
     enable = true;
     imagemagick = true;
@@ -232,7 +238,7 @@
     '';
   };
 
-   systemd.services.bind-ejabberd-certs = {
+  systemd.services.bind-ejabberd-certs = {
     description = "mount certs for ejabberd with different perms";
     after = ["local-fs.target"];
     wantedBy = ["ejabberd.service"];
