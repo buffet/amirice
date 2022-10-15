@@ -5,6 +5,14 @@
 }: let
   certdir = "/var/lib/acme/ejabberd";
 in {
+  networking.firewall.allowedTCPPorts = [
+    5222 # xmpp-client
+    5269 # xmpp-server
+    5280 # xmpp-bosh
+    5443 # https
+    1883 # mqtt
+  ];
+
   services.ejabberd = {
     enable = true;
     imagemagick = true;
