@@ -79,10 +79,6 @@ in {
           transport: udp
           module: ejabberd_stun
           use_turn: true
-          ## The server's public IPv4 address:
-          # turn_ipv4_address: "203.0.113.3"
-          ## The server's public IPv6 address:
-          # turn_ipv6_address: "2001:db8::3"
         -
           port: 1883
           ip: "::"
