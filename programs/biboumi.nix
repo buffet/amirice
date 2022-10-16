@@ -7,7 +7,6 @@
     settings = {
       admin = ["buffet@buffet.sh"];
       hostname = "biboumi.localhost";
-      password = null; # set in secret
     };
   };
 }
