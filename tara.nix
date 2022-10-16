@@ -9,7 +9,6 @@
     ./system.nix
   ];
 
-  networking.firewall.allowedTCPPorts = [80 443];
   age.identityPaths = ["/home/buffet/.ssh/id_agenix"];
 
   environment.systemPackages = with pkgs; [
