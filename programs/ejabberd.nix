@@ -5,8 +5,6 @@
 }: let
   certdir = "/var/lib/acme/ejabberd";
 in {
-  age.secrets.ejabberd-component.file = ../secrets/biboumi.age;
-
   networking.firewall.allowedTCPPorts = [
     5222 # xmpp-client
     5269 # xmpp-server
@@ -86,14 +84,6 @@ in {
           ip: "::"
           module: mod_mqtt
           backlog: 1000
-        -
-          port: 5347
-          ip: "::"
-          module: ejabberd_service
-          hosts:
-            biboumi.localhost:
-            include_config_file:
-              - ${config.age.secrets.ejabberd-component.path}
 
       s2s_use_starttls: optional
 
