@@ -4,7 +4,7 @@ _: {
     ./acme.nix
     ./bitwarden.nix
     ./borg.nix
-    ./ejabberd.nix
+    #./ejabberd.nix
     ./website.nix
     ./weechat.nix
   ];
