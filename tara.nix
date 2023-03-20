@@ -4,7 +4,7 @@
   ...
 }: {
   imports = [
-    agenix.nixosModule
+    agenix.nixosModules.default
     ./programs
     ./system.nix
   ];
