@@ -5,6 +5,7 @@ _: {
     ./bitwarden.nix
     ./borg.nix
     #./ejabberd.nix
+    ./mosh.nix
     ./website.nix
     ./weechat.nix
   ];

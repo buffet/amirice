@@ -28,8 +28,10 @@ _: {
   };
 
   nix = {
-    autoOptimiseStore = true;
-    trustedUsers = ["root" "buffet"];
+    settings = {
+      auto-optimise-store = true;
+      trusted-users = ["root" "buffet"];
+    };
 
     gc = {
       automatic = true;
