@@ -10,6 +10,7 @@ in {
   services.borgbackup = {
     jobs.backup = {
       paths = ["/etc" "/home" "/root" "/var"];
+      exclude = ["/var/log"];
       repo = "${host}:${config.networking.hostName}";
       encryption = {
         mode = "repokey";
