@@ -6,6 +6,11 @@
       url = "github:ryantm/agenix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    website = {
+      url = "github:buffet/website";
+      flake = false;
+    };
   };
 
   outputs = {nixpkgs, ...} @ args: {

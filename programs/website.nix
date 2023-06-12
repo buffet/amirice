@@ -1,4 +1,4 @@
-_: {
+{website, ...}: {
   networking.firewall.allowedTCPPorts = [80 443];
 
   services.nginx = {
@@ -12,8 +12,7 @@ _: {
     virtualHosts."buffet.sh" = {
       enableACME = true;
       forceSSL = true;
-      # TODO: website source
-      root = "/var/empty";
+      root = "${website}";
     };
   };
 }

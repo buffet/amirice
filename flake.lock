@@ -84,7 +84,24 @@
     "root": {
       "inputs": {
         "agenix": "agenix",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "website": "website"
+      }
+    },
+    "website": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1633794149,
+        "narHash": "sha256-issHXtKRG4UXToakc9MU5WL6yIMX5fG8LawdsB8spSA=",
+        "owner": "buffet",
+        "repo": "website",
+        "rev": "1b5d92fe376e5d705bd8818235756b6bbb5188e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "buffet",
+        "repo": "website",
+        "type": "github"
       }
     }
   },
