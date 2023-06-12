@@ -91,11 +91,11 @@
     "website": {
       "flake": false,
       "locked": {
-        "lastModified": 1633794149,
-        "narHash": "sha256-issHXtKRG4UXToakc9MU5WL6yIMX5fG8LawdsB8spSA=",
+        "lastModified": 1686568001,
+        "narHash": "sha256-n203ORBasTJ6vZKXKZ9yWNIzd5SOeu5uZIi2LVezTVA=",
         "owner": "buffet",
         "repo": "website",
-        "rev": "1b5d92fe376e5d705bd8818235756b6bbb5188e3",
+        "rev": "b023b0940091de7ad25bf9f7029b030ebdc8f0ac",
         "type": "github"
       },
       "original": {
