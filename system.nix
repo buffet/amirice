@@ -13,7 +13,7 @@ _: {
     loader.grub.forceInstall = true;
     loader.grub.device = "/dev/vda";
     loader.timeout = 10;
-    cleanTmpDir = true;
+    tmp.cleanOnBoot = true;
   };
 
   security.sudo.wheelNeedsPassword = false;
