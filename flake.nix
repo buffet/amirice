@@ -14,10 +14,10 @@
   };
 
   outputs = {nixpkgs, ...} @ args: {
-    nixosConfigurations.ami = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.tara = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = args;
-      modules = [./ami.nix];
+      modules = [./tara.nix];
     };
   };
 }

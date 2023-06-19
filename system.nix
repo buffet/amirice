@@ -22,7 +22,7 @@ _: {
   services.postgresql.enable = true;
 
   networking = {
-    hostName = "ami";
+    hostName = "tara";
     firewall.allowPing = true;
     usePredictableInterfaceNames = false;
   };
