@@ -1,6 +1,7 @@
 _: {
   imports = [
     ./hardware-configuration.nix
+    ./linode.nix
   ];
 
   # Don't change!
@@ -11,7 +12,7 @@ _: {
 
   boot = {
     loader.grub.forceInstall = true;
-    loader.grub.device = "/dev/vda";
+    loader.grub.device = "nodev";
     loader.timeout = 10;
     tmp.cleanOnBoot = true;
   };
