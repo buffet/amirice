@@ -14,5 +14,11 @@
       forceSSL = true;
       root = "${website}";
     };
+
+    virtualHosts."unix.pics" = {
+      enableACME = true;
+      forceSSL = true;
+      root = "/var/lib/stuff/unix.pics";
+    };
   };
 }

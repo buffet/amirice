@@ -11,6 +11,7 @@ _: {
         "mx.buffet.sh"
         "severely.gay"
         "stuff.severely.gay"
+        "unix.pics"
       ];
     };
   };
